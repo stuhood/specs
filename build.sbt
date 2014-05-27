@@ -2,7 +2,7 @@ name := "specs"
 
 organization := "org.scala-tools.testing"
 
-version := "1.6.9"
+version := "1.6.9-BMD"
 
 scalaVersion := "2.10.0"
 

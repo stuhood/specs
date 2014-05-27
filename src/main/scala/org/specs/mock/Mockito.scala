@@ -392,7 +392,7 @@ trait MockitoFunctions extends TheMockitoMocker {
  * Type-inference friendly Mockito matcher for 'any'
  */
 trait MockitoMatchers {
-  def any[T](implicit m: scala.reflect.ClassManifest[T]): T = org.mockito.Matchers.isA(m.erasure).asInstanceOf[T]
+  def any[T : scala.reflect.ClassTag]: T = org.mockito.Matchers.any(implicitly[scala.reflect.ClassTag[T]].runtimeClass).asInstanceOf[T]
 }
 /** delegate to Mockito static methods with appropriate type inference. */
 trait TheMockitoMocker {
