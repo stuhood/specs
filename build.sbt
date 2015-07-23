@@ -1,10 +1,10 @@
-name := "specs"
+name := "specs_2.11"
 
 organization := "org.scala-tools.testing"
 
-version := "1.6.9-BMD"
+version := "1.6.9-stuhood-1"
 
-scalaVersion := "2.10.0"
+scalaVersion := "2.11.7"
 
 libraryDependencies ++= Seq(
   "junit" % "junit" % "4.7" % "optional",
@@ -21,7 +21,7 @@ libraryDependencies ++= Seq(
   "org.mockito" % "mockito-all" % "1.8.5" % "optional",
   "cglib" % "cglib" % "2.1_3" % "optional",
   "org.objenesis" % "objenesis" % "1.0" % "optional",
-  "org.scala-lang" % "scala-compiler" % "2.10.0" % "optional")
+  "org.scala-lang" % "scala-compiler" % "2.11.7" % "optional")
 
 testOptions := Seq(Tests.Filter(s => s.endsWith("Spec")))
 
