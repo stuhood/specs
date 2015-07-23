@@ -12,7 +12,6 @@ libraryDependencies ++= Seq(
   "org.eclipse.mylyn.wikitext" % "wikitext.textile" % "0.9.4.I20090220-1600-e3x"% "optional",
   "org.markdownj" % "markdownj" % "0.3.0-1.0.2b4" % "optional",
   "org.scala-tools.testing" % "test-interface" % "0.5" % "optional",
-  "org.scalatest" % "scalatest_2.11" % "2.1.3" % "optional",
   "org.easymock" % "easymock" % "2.5.1" % "optional",
   "org.easymock" % "easymockclassextension" % "2.4" % "optional",
   "org.scalacheck" % "scalacheck_2.11" % "1.8" % "optional",
