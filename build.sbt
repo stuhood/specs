@@ -1,8 +1,8 @@
-name := "specs_2.11"
+name := "specs"
 
 organization := "org.scala-tools.testing"
 
-version := "1.6.9-stuhood-1"
+version := "1.6.9-BMD2"
 
 scalaVersion := "2.11.7"
 
