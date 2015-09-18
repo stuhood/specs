@@ -21,7 +21,7 @@ libraryDependencies ++= Seq(
   "cglib" % "cglib" % "2.1_3" % "optional",
   "org.objenesis" % "objenesis" % "1.0" % "optional",
   "org.scala-lang" % "scala-compiler" % "2.11.7" % "optional",
-  "org.scala-lang.modules" % "scala-xml_2.11" % "1.0.5" % "optional")
+  "org.scala-lang.modules" % "scala-xml_2.11" % "1.0.5")
 
 testOptions := Seq(Tests.Filter(s => s.endsWith("Spec")))
 
