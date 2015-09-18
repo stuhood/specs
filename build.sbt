@@ -20,7 +20,8 @@ libraryDependencies ++= Seq(
   "org.mockito" % "mockito-all" % "1.8.5" % "optional",
   "cglib" % "cglib" % "2.1_3" % "optional",
   "org.objenesis" % "objenesis" % "1.0" % "optional",
-  "org.scala-lang" % "scala-compiler" % "2.11.7" % "optional")
+  "org.scala-lang" % "scala-compiler" % "2.11.7" % "optional",
+  "org.scala-lang" % "scala-xml" % "2.11.7" % "optional")
 
 testOptions := Seq(Tests.Filter(s => s.endsWith("Spec")))
 
